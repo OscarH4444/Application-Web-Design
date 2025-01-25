@@ -32,28 +32,53 @@ Bold and Italic: ***text***
 Here’s a list of commonly used Git commands with descriptions:
 
 Checking the Status of a Repository
+
 -Check the status of the repository:
+
 git status
+
 --Adding Files to the Staging Area
+
 -Add a single file:
+
 git add filename
+
 -Add all changes globally:
+
 git add .
+
 --Creating a Commit
+
 -Add a commit with a message:
+
 git commit -m "Your commit message"
+
 --Uploading Changes to the Remote Repository
+
 -Push changes to the remote repository:
+
 git push origin branch_name
+
 --Branch Management
+
 -Create a new branch:
+
 git branch branch_name
+
 -Switch to a branch:
+
 git checkout branch_name
+
 -Delete a branch:
+
 git branch -d branch_name
+
 --Rolling Back to a Specific Commit
+
 -View the commit history:
+
 git log
+
 -Roll back to a specific commit:
+
 git reset --hard commit_hash
